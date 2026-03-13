@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Create Account</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@400;500;700&family=Instrument+Serif:ital@0;1&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="/static/style.css">
+</head>
+<body>
+  <div class="page-shell auth-shell">
+    <section class="auth-card auth-card-wide">
+      <p class="eyebrow">Green City Produce Ltd.</p>
+      <h1 class="auth-title">Create Account</h1>
+      <p class="intro">Create a customer account once, then place future orders without re-entering your details.</p>
+      <form id="signupForm" class="auth-form">
+        <div class="field-grid">
+          <label>
+            Customer name
+            <input name="customer_name" required>
+          </label>
+          <label>
+            Company
+            <input name="company_name" required>
+          </label>
+          <label>
+            Phone
+            <input name="phone" required placeholder="(xxx) xxx-xxxx">
+          </label>
+          <label>
+            Email
+            <input name="email" type="email" required>
+          </label>
+          <label>
+            Username
+            <input name="username" required>
+          </label>
+          <label>
+            Password
+            <input name="password" type="password" required>
+          </label>
+        </div>
+        <button class="submit-button" type="submit">Create account</button>
+        <p id="signupStatus" class="status"></p>
+      </form>
+      <p class="auth-switch">Already have an account? <a href="/login">Sign in</a></p>
+    </section>
+  </div>
+  <script src="/static/signup.js"></script>
+</body>
+</html>

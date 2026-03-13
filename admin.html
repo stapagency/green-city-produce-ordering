@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Admin Console</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@400;500;700&family=Instrument+Serif:ital@0;1&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="/static/style.css">
+</head>
+<body>
+  <div class="page-shell">
+    <header class="hero">
+      <div class="hero-copy">
+        <p class="eyebrow">Green City Produce Ltd.</p>
+        <h1>Owner Admin Console.</h1>
+        <p class="intro">Approve new customer accounts, manage products, and update the site contact information from one page.</p>
+      </div>
+      <div class="hero-note">
+        <p>Owner tools</p>
+        __ADMIN_NAV__
+      </div>
+    </header>
+
+    <main class="dashboard-layout">
+      <section class="dashboard-grid">
+        <section class="customer-card">
+          <div class="section-intro">
+            <p class="section-kicker">Account approvals</p>
+            <p class="section-copy">Approve new customer accounts before they can sign in.</p>
+          </div>
+          <div id="pendingAccounts" class="history-list">__PENDING_ACCOUNTS__</div>
+        </section>
+
+        <section class="customer-card">
+          <div class="section-intro">
+            <p class="section-kicker">Contact info</p>
+            <p class="section-copy">Update the phone number and footer message shown across the site.</p>
+          </div>
+          <form id="settingsForm" class="dashboard-form">
+            <label>
+              Contact phone
+              <input name="contact_phone" value="__CONTACT_PHONE__">
+            </label>
+            <label>
+              Footer message
+              <textarea name="contact_message" rows="4">__CONTACT_MESSAGE__</textarea>
+            </label>
+            <button class="submit-button" type="submit">Save contact info</button>
+            <p id="settingsStatus" class="status"></p>
+          </form>
+        </section>
+
+        <section class="customer-card">
+          <div class="section-intro">
+            <p class="section-kicker">Customer accounts</p>
+            <p class="section-copy">See every customer account, then open the full detail page for complete order history and PDF printing.</p>
+          </div>
+          <div class="cart-head history-head">
+            <h3>Customers and orders</h3>
+            <button id="refreshCustomers" class="ghost-button" type="button">Refresh</button>
+          </div>
+          <div id="customerAccounts" class="history-list">__CUSTOMER_ACCOUNTS__</div>
+        </section>
+
+        <section class="customer-card">
+          <div class="section-intro">
+            <p class="section-kicker">Add product</p>
+            <p class="section-copy">Add a product directly to a category, or into an existing parent group using the optional parent field.</p>
+          </div>
+          <form id="productForm" class="dashboard-form">
+            <div class="profile-grid">
+              <label>
+                Category
+                <input name="category" placeholder="Fruit">
+              </label>
+              <label>
+                Parent group
+                <input name="parent_name" placeholder="Optional: Berries">
+              </label>
+              <label>
+                Item name
+                <input name="item_name" placeholder="Blueberries">
+              </label>
+              <label>
+                Units
+                <input name="units" placeholder="PT, FL">
+              </label>
+            </div>
+            <label>
+              Details
+              <input name="details" placeholder="Optional">
+            </label>
+            <button class="submit-button" type="submit">Add product</button>
+            <p id="productStatus" class="status"></p>
+          </form>
+        </section>
+
+        <section class="customer-card">
+          <div class="section-intro">
+            <p class="section-kicker">Catalog</p>
+            <p class="section-copy">Remove products or entire parent groups.</p>
+          </div>
+          <div id="adminCatalog" class="history-list">__PRODUCT_ROWS__</div>
+        </section>
+      </section>
+    </main>
+
+    <footer class="site-footer">
+      <div>
+        <p class="section-kicker">Contact us</p>
+        <p class="footer-phone">__CONTACT_PHONE__</p>
+      </div>
+      <p class="footer-copy">__CONTACT_MESSAGE__</p>
+    </footer>
+  </div>
+
+  <script src="/static/admin.js"></script>
+</body>
+</html>

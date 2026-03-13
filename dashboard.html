@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Customer Dashboard</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@400;500;700&family=Instrument+Serif:ital@0;1&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="/static/style.css">
+</head>
+<body>
+  <div class="page-shell">
+    <header class="hero">
+      <div class="hero-copy">
+        <p class="eyebrow">Green City Produce Ltd.</p>
+        <h1>Your Customer Dashboard.</h1>
+        <p class="intro">Manage your account details, review past orders, and track delivery invoices from one place.</p>
+      </div>
+      <div class="hero-note">
+        <p id="accountSummary">__ACCOUNT_SUMMARY__</p>
+        __ACCOUNT_NAV__
+      </div>
+    </header>
+
+    <main class="dashboard-layout">
+      <section class="dashboard-grid">
+        <section class="customer-card">
+          <div class="section-intro">
+            <p class="section-kicker">Manage info</p>
+            <p class="section-copy">Update the contact details tied to your account.</p>
+          </div>
+          <form id="profileForm" class="dashboard-form">
+            __ACCOUNT_CARD__
+            <button class="submit-button" type="submit">Save changes</button>
+            <p id="profileStatus" class="status"></p>
+          </form>
+        </section>
+
+        <section class="customer-card">
+          <div class="section-intro">
+            <p class="section-kicker">Past orders</p>
+            <p class="section-copy">Review your most recent orders and what was requested.</p>
+          </div>
+          <div class="cart-head history-head">
+            <h3>Order history</h3>
+            <button id="refreshHistory" class="ghost-button" type="button">Refresh</button>
+          </div>
+          <div id="orderHistory" class="history-list">__ORDER_HISTORY__</div>
+        </section>
+
+        <section class="customer-card">
+          <div class="section-intro">
+            <p class="section-kicker">Invoices</p>
+            <p class="section-copy">Invoices are issued on delivery and remain linked to your order history here.</p>
+          </div>
+          <div class="cart-head history-head">
+            <h3>Invoice status</h3>
+            <button id="refreshInvoices" class="ghost-button" type="button">Refresh</button>
+          </div>
+          <div id="invoiceList" class="history-list">__INVOICES__</div>
+        </section>
+
+        <section class="customer-card">
+          <div class="section-intro">
+            <p class="section-kicker">Reports</p>
+            <p class="section-copy">Useful account-level summaries based on your order history.</p>
+          </div>
+          <div class="cart-head history-head">
+            <h3>Order reports</h3>
+            <button id="refreshReports" class="ghost-button" type="button">Refresh</button>
+          </div>
+          <div id="reportCards" class="report-grid">__REPORTS__</div>
+        </section>
+      </section>
+    </main>
+
+    <footer class="site-footer">
+      <div>
+        <p class="section-kicker">Contact us</p>
+        <p class="footer-phone">__CONTACT_PHONE__</p>
+      </div>
+      <p class="footer-copy">__CONTACT_MESSAGE__</p>
+    </footer>
+  </div>
+
+  <script src="/static/dashboard.js"></script>
+</body>
+</html>

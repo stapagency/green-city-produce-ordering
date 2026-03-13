@@ -1,0 +1,22 @@
+[
+  {
+    "username": "greencitydemo",
+    "password": "greencity123",
+    "customer_name": "Green City Demo",
+    "company_name": "Green City Produce Ltd.",
+    "phone": "(xxx) xxx-xxxx",
+    "email": "orders@example.com",
+    "role": "customer",
+    "status": "approved"
+  },
+  {
+    "username": "greencityowner",
+    "password": "owner123",
+    "customer_name": "Green City Owner",
+    "company_name": "Green City Produce Ltd.",
+    "phone": "(xxx) xxx-xxxx",
+    "email": "owner@greencityproduce.com",
+    "role": "admin",
+    "status": "approved"
+  }
+]

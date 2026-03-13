@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Customer Login</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@400;500;700&family=Instrument+Serif:ital@0;1&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="/static/style.css">
+</head>
+<body>
+  <div class="page-shell auth-shell">
+    <section class="auth-card">
+      <p class="eyebrow">Green City Produce Ltd.</p>
+      <h1 class="auth-title">Customer Login</h1>
+      <p class="intro">Sign in to place an order using your saved account details.</p>
+      <form id="loginForm" class="auth-form">
+        <label>
+          Username
+          <input name="username" required>
+        </label>
+        <label>
+          Password
+          <input name="password" type="password" required>
+        </label>
+        <button class="submit-button" type="submit">Sign in</button>
+        <p id="loginStatus" class="status"></p>
+      </form>
+      <p class="auth-switch">Need an account? <a href="/signup">Create one</a></p>
+    </section>
+  </div>
+  <script src="/static/login.js"></script>
+</body>
+</html>

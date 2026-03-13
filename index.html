@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Warehouse Produce Orders</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@400;500;700&family=Instrument+Serif:ital@0;1&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="/static/style.css">
+</head>
+<body>
+  <div class="page-shell">
+    <header class="hero">
+      <div class="hero-copy">
+        <p class="eyebrow">Green City Produce Ltd.</p>
+        <h1>Your Source for Fresh Produce.</h1>
+        <p class="intro">Customers build an order, submit it without pricing, and the warehouse prints a full-size ticket immediately.</p>
+      </div>
+      <div class="hero-note">
+        <p>Invoices are issued on delivery.</p>
+      </div>
+    </header>
+
+    <main class="layout">
+      <section class="catalog-panel">
+        <div class="toolbar">
+          <input id="searchInput" type="search" placeholder="Search apples, kale, basil...">
+          <div id="categoryTabs" class="tabs">__CATEGORY_TABS__</div>
+        </div>
+        <div id="catalog" class="catalog">__CATALOG_CARDS__</div>
+      </section>
+
+      <aside class="order-panel">
+        <form id="orderForm">
+          <h2>Customer order</h2>
+          <section class="customer-card">
+            <div class="section-intro">
+              <p class="section-kicker">Customer details</p>
+              <p class="section-copy">Add the delivery contact information here so the warehouse and driver have the right details on the ticket.</p>
+            </div>
+            <div class="field-grid">
+              <label>
+                Customer name
+                <input name="customer_name" required placeholder="Full name">
+              </label>
+              <label>
+                Company
+                <input name="company_name" placeholder="Business name">
+              </label>
+              <label>
+                Delivery date
+                <input name="delivery_date" type="date">
+              </label>
+              <label>
+                Phone
+                <input name="phone" placeholder="(xxx) xxx-xxxx">
+              </label>
+              <label class="full-span">
+                Email
+                <input name="email" type="email" placeholder="name@example.com">
+              </label>
+            </div>
+          </section>
+
+          <label>
+            Notes for warehouse
+            <textarea name="notes" rows="4" placeholder="Special packing, substitutions, loading notes..."></textarea>
+          </label>
+
+          <div class="cart-head">
+            <h3>Selected items</h3>
+            <button type="button" id="clearCart" class="ghost-button">Clear</button>
+          </div>
+          <div id="cart" class="cart empty">
+            <p>No items added yet.</p>
+          </div>
+
+          <button class="submit-button" type="submit">Place order</button>
+          <p id="statusMessage" class="status"></p>
+        </form>
+      </aside>
+    </main>
+
+    <footer class="site-footer">
+      <div>
+        <p class="section-kicker">Contact us</p>
+        <p class="footer-phone">__CONTACT_PHONE__</p>
+      </div>
+      <p class="footer-copy">__CONTACT_MESSAGE__</p>
+    </footer>
+  </div>
+
+  <script>
+    window.__CATALOG__ = __CATALOG__;
+  </script>
+  <script src="/static/app.js"></script>
+</body>
+</html>

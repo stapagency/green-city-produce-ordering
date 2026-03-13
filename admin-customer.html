@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Customer Order Detail</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@400;500;700&family=Instrument+Serif:ital@0;1&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="/static/style.css">
+</head>
+<body>
+  <div class="page-shell print-shell">
+    <header class="hero admin-print-hero">
+      <div class="hero-copy">
+        <p class="eyebrow">Green City Produce Ltd.</p>
+        <h1>Customer Order Detail.</h1>
+        <p class="intro">Review this customer’s full order history and print or save it as a PDF.</p>
+      </div>
+      <div class="hero-note">
+        __ADMIN_NAV__
+      </div>
+    </header>
+
+    <main class="dashboard-layout">
+      <section class="dashboard-grid">
+        <section class="customer-card">
+          <div class="section-intro">
+            <p class="section-kicker">Customer</p>
+            <p class="section-copy">__CUSTOMER_NAME__ | __COMPANY_NAME__</p>
+          </div>
+          <div class="history-summary">
+            <span>__CUSTOMER_EMAIL__</span>
+            <span>__CUSTOMER_PHONE__</span>
+            <span>__ORDER_COUNT__ orders</span>
+          </div>
+          <div class="admin-actions top-actions no-print">
+            <a class="account-link" href="/admin">Back to admin</a>
+            <button id="printCustomerHistory" class="submit-button small-button" type="button">Print / Save PDF</button>
+          </div>
+        </section>
+
+        <section class="customer-card">
+          <div class="section-intro">
+            <p class="section-kicker">Order history</p>
+            <p class="section-copy">Open each order individually to see all items and print it as a PDF.</p>
+          </div>
+          <div class="history-list detail-history-list">__ORDER_DETAILS__</div>
+        </section>
+      </section>
+    </main>
+
+    <footer class="site-footer no-print">
+      <div>
+        <p class="section-kicker">Contact us</p>
+        <p class="footer-phone">__CONTACT_PHONE__</p>
+      </div>
+      <p class="footer-copy">__CONTACT_MESSAGE__</p>
+    </footer>
+  </div>
+
+  <script src="/static/admin-customer.js"></script>
+</body>
+</html>

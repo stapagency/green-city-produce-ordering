@@ -1,0 +1,547 @@
+[
+  {
+    "category": "Fruit",
+    "items": [
+      {
+        "name": "Apples",
+        "children": [
+          { "name": "Granny Smith Apples", "details": "", "units": ["EA", "CS"] },
+          { "name": "Royal Gala Apples", "details": "", "units": ["EA", "CS"] },
+          { "name": "Macintosh Apples", "details": "", "units": ["EA", "CS"] },
+          { "name": "Golden Apples", "details": "", "units": ["EA", "CS"] },
+          { "name": "Red Delicious Apples", "details": "", "units": ["EA", "CS"] }
+        ]
+      },
+      {
+        "name": "Avocados",
+        "children": [
+          { "name": "16s Avocados", "details": "", "units": ["EA", "CS"] },
+          { "name": "48s Avocados", "details": "", "units": ["EA", "CS"] }
+        ]
+      },
+      {
+        "name": "Bananas",
+        "children": [
+          { "name": "Ready Bananas", "details": "", "units": ["LB", "CS"] },
+          { "name": "Green Bananas", "details": "", "units": ["LB", "CS"] }
+        ]
+      },
+      {
+        "name": "Berries",
+        "children": [
+          { "name": "Blueberries", "details": "", "units": ["PT", "FL"] },
+          { "name": "Blackberries", "details": "", "units": ["PT", "FL"] },
+          { "name": "Raspberries", "details": "", "units": ["PT", "FL"] },
+          { "name": "Gooseberries", "details": "", "units": ["PT", "FL"] },
+          { "name": "1 lb Strawberries", "details": "", "units": ["CL", "FL"] }
+        ]
+      },
+      {
+        "name": "Cantaloupes",
+        "children": [
+          { "name": "9 Count Cantaloupes", "details": "", "units": ["EA", "CS"] },
+          { "name": "12 Count Cantaloupes", "details": "", "units": ["EA", "CS"] },
+          { "name": "15 Count Cantaloupes", "details": "", "units": ["EA", "CS"] }
+        ]
+      },
+      {
+        "name": "Grapes",
+        "children": [
+          { "name": "Red Grapes", "details": "", "units": ["LB", "CS"] },
+          { "name": "Green Grapes", "details": "", "units": ["LB", "CS"] }
+        ]
+      },
+      {
+        "name": "Specialty Fruit",
+        "children": [
+          { "name": "Grapefruit", "details": "", "units": ["EA", "CS"] },
+          { "name": "Dragon Fruit", "details": "", "units": ["EA", "CS"] },
+          { "name": "Kiwi", "details": "", "units": ["FL", "CS", "CLAM"] },
+          { "name": "Fig", "details": "", "units": ["FL", "CS", "CLAM"] }
+        ]
+      },
+      {
+        "name": "Honeydews",
+        "children": [
+          { "name": "6 Count Honeydews", "details": "", "units": ["EA", "CS"] },
+          { "name": "8 Count Honeydews", "details": "", "units": ["EA", "CS"] }
+        ]
+      },
+      { "name": "Lemons", "details": "140 count", "units": ["EA", "CS"] },
+      {
+        "name": "Limes",
+        "children": [
+          { "name": "63 Count Limes", "details": "", "units": ["EA", "CS"] },
+          { "name": "Bulk Limes", "details": "", "units": ["EA", "CS"] }
+        ]
+      },
+      {
+        "name": "Mango",
+        "children": [
+          { "name": "Ataulfo Mango", "details": "", "units": ["EA", "CS"] },
+          { "name": "Man Mango", "details": "", "units": ["EA", "CS"] }
+        ]
+      },
+      {
+        "name": "Oranges",
+        "children": [
+          { "name": "72 Count Oranges", "details": "", "units": ["EA", "CS"] },
+          { "name": "Blood Oranges", "details": "", "units": ["EA", "CS"] },
+          { "name": "Clementines", "details": "", "units": ["EA", "CS"] }
+        ]
+      },
+      {
+        "name": "Pears",
+        "children": [
+          { "name": "Bosc Pears", "details": "", "units": ["EA", "CS"] },
+          { "name": "Asian Pears", "details": "", "units": ["EA", "CS"] }
+        ]
+      },
+      {
+        "name": "Stone Fruit",
+        "children": [
+          { "name": "Peaches", "details": "Basket", "units": ["LB", "CS"] },
+          { "name": "Nectarines", "details": "Basket", "units": ["LB", "CS"] },
+          { "name": "Plums", "details": "", "units": ["EA", "LB", "FL"] },
+          { "name": "Pomegranates", "details": "", "units": ["EA", "LB", "FL"] }
+        ]
+      },
+      {
+        "name": "Tropical Fruit",
+        "children": [
+          { "name": "Pineapples", "details": "", "units": ["EA", "CS"] },
+          { "name": "Jumbo Papaya", "details": "", "units": ["EA", "CS"] }
+        ]
+      },
+      { "name": "Watermelon", "details": "", "units": ["EA", "CS"] }
+    ]
+  },
+  {
+    "category": "Vegetables",
+    "items": [
+      {
+        "name": "Sprouts",
+        "children": [
+          { "name": "Alfalfa Sprouts", "details": "", "units": ["EA", "BX"] },
+          { "name": "Onion Sprouts", "details": "", "units": ["EA", "BX"] },
+          { "name": "Bean Sprouts", "details": "", "units": ["LB", "CS"] }
+        ]
+      },
+      {
+        "name": "Arugula",
+        "children": [
+          { "name": "Baby Arugula", "details": "", "units": ["CL", "CS"] },
+          { "name": "Green Leaf Arugula", "details": "", "units": ["CL", "CS"] }
+        ]
+      },
+      {
+        "name": "Asparagus",
+        "children": [
+          { "name": "11 Count Asparagus", "details": "", "units": ["LB", "CS"] },
+          { "name": "28 Count Asparagus", "details": "", "units": ["LB", "CS"] }
+        ]
+      },
+      {
+        "name": "Beans",
+        "children": [
+          { "name": "Green Beans", "details": "", "units": ["LB", "CS"] },
+          { "name": "Yellow Beans", "details": "", "units": ["LB", "CS"] }
+        ]
+      },
+      { "name": "Brussels Sprouts", "details": "", "units": ["LB", "CS"] },
+      {
+        "name": "Beets",
+        "children": [
+          { "name": "Gold Beets", "details": "", "units": ["LB", "BG"] },
+          { "name": "Stripe Beets", "details": "", "units": ["LB", "BG"] }
+        ]
+      },
+      {
+        "name": "Bok Choy",
+        "children": [
+          { "name": "Bok Choy", "details": "", "units": ["EA", "LB", "CS"] },
+          { "name": "Baby Bok Choy", "details": "", "units": ["EA", "LB", "CS"] }
+        ]
+      },
+      {
+        "name": "Broccoli",
+        "children": [
+          { "name": "Broccoli", "details": "", "units": ["LB", "EA", "CS"] },
+          { "name": "Broccolini", "details": "", "units": ["LB", "EA", "CS"] }
+        ]
+      },
+      {
+        "name": "Cabbage",
+        "children": [
+          { "name": "Green Cabbage", "details": "", "units": ["EA", "LB", "CS"] },
+          { "name": "Red Cabbage", "details": "", "units": ["EA", "LB", "CS"] },
+          { "name": "Napa Cabbage", "details": "", "units": ["EA", "LB", "CS"] },
+          { "name": "Savoy Cabbage", "details": "", "units": ["EA", "LB", "CS"] }
+        ]
+      },
+      {
+        "name": "Carrots",
+        "children": [
+          { "name": "Carrots", "details": "", "units": ["LB", "BG", "EA", "BX", "CS"] },
+          { "name": "Heirloom Carrots", "details": "", "units": ["LB", "BG", "EA", "BX", "CS"] },
+          { "name": "10 x 5 lb Carrots", "details": "", "units": ["EA", "BG"] },
+          { "name": "Mini Carrots", "details": "1 lb", "units": ["EA", "BX", "CS"] },
+          { "name": "Teen Carrots", "details": "", "units": ["EA", "BX", "CS"] }
+        ]
+      },
+      {
+        "name": "Cauliflower / Corn",
+        "children": [
+          { "name": "Cauliflower", "details": "", "units": ["EA", "CS"] },
+          { "name": "Corn", "details": "", "units": ["EA", "CS"] }
+        ]
+      },
+      {
+        "name": "Celery",
+        "children": [
+          { "name": "Celery", "details": "", "units": ["LB", "EA", "CS"] },
+          { "name": "Celery Root", "details": "", "units": ["LB", "EA", "CS"] }
+        ]
+      },
+      { "name": "Cucumber", "details": "English", "units": ["EA", "BX"] },
+      {
+        "name": "Eggplant",
+        "children": [
+          { "name": "Eggplant", "details": "", "units": ["LB", "EA", "CS"] },
+          { "name": "Japanese Eggplant", "details": "", "units": ["LB", "EA", "CS"] }
+        ]
+      },
+      {
+        "name": "Fennel / Leeks",
+        "children": [
+          { "name": "Fennel", "details": "", "units": ["EA", "CS"] },
+          { "name": "Leeks", "details": "", "units": ["EA", "CS"] }
+        ]
+      },
+      {
+        "name": "Baby Kale / Blend",
+        "children": [
+          { "name": "Baby Kale", "details": "", "units": ["LB", "EA", "CS"] },
+          { "name": "Kale Blend", "details": "", "units": ["LB", "EA", "CS"] }
+        ]
+      },
+      {
+        "name": "Kale",
+        "children": [
+          { "name": "Green Kale", "details": "", "units": ["EA", "CS"] },
+          { "name": "Red Kale", "details": "", "units": ["EA", "CS"] },
+          { "name": "Tuscan Kale", "details": "", "units": ["EA", "CS"] }
+        ]
+      },
+      {
+        "name": "Swiss Chard",
+        "children": [
+          { "name": "Green Swiss Chard", "details": "", "units": ["EA", "CS"] },
+          { "name": "Red Swiss Chard", "details": "", "units": ["EA", "CS"] }
+        ]
+      },
+      {
+        "name": "Lettuce",
+        "children": [
+          { "name": "Iceberg Lettuce", "details": "", "units": ["EA", "BG", "CS"] },
+          { "name": "Romaine Lettuce", "details": "", "units": ["EA", "BG", "CS"] },
+          { "name": "Romaine Hearts", "details": "", "units": ["EA", "BG", "CS"] },
+          { "name": "Green Leaf Lettuce", "details": "", "units": ["EA", "BG", "CS"] },
+          { "name": "Red Leaf Lettuce", "details": "", "units": ["EA", "BG", "CS"] },
+          { "name": "Gem Lettuce", "details": "", "units": ["EA", "BG", "CS"] },
+          { "name": "Frisee Lettuce", "details": "", "units": ["EA", "BG", "CS"] },
+          { "name": "Baby Red Romaine", "details": "", "units": ["EA", "BG", "CS"] },
+          { "name": "Radicchio", "details": "", "units": ["EA", "BG", "CS"] },
+          { "name": "Boston Lettuce", "details": "", "units": ["EA", "BG", "CS"] }
+        ]
+      },
+      {
+        "name": "Spring Mix",
+        "children": [
+          { "name": "Springmix", "details": "", "units": ["CS"] },
+          { "name": "Heritage Spring Mix", "details": "", "units": ["CS"] },
+          { "name": "Vision Spring Mix", "details": "", "units": ["CS"] }
+        ]
+      },
+      {
+        "name": "Spinach",
+        "children": [
+          { "name": "Baby Spinach", "details": "", "units": ["BG", "CS"] },
+          { "name": "Flat Spinach", "details": "", "units": ["BG", "CS"] }
+        ]
+      },
+      {
+        "name": "Mushrooms",
+        "children": [
+          { "name": "Button Mushrooms", "details": "", "units": ["BG", "LB", "BX"] },
+          { "name": "Oyster Mushrooms", "details": "", "units": ["BG", "LB", "BX"] },
+          { "name": "King Mushrooms", "details": "", "units": ["BG", "LB", "BX"] },
+          { "name": "Maitake Mushrooms", "details": "", "units": ["BG", "LB", "BX"] },
+          { "name": "Cafe Mushrooms", "details": "", "units": ["BG", "LB", "BX"] },
+          { "name": "Shiitake Mushrooms", "details": "", "units": ["BG", "LB", "BX"] },
+          { "name": "Portabello Mushrooms", "details": "", "units": ["BG", "LB", "BX"] },
+          { "name": "Lini Mushrooms", "details": "", "units": ["BG", "LB", "BX"] },
+          { "name": "Enoki Mushrooms", "details": "", "units": ["BG", "LB", "BX"] },
+          { "name": "Honey Mushrooms", "details": "", "units": ["BG", "LB", "BX"] },
+          { "name": "Shimeji Mushrooms", "details": "", "units": ["BG", "LB", "BX"] }
+        ]
+      },
+      {
+        "name": "Onions",
+        "children": [
+          { "name": "Spanish Onions", "details": "", "units": ["LB", "BG", "EA", "BX"] },
+          { "name": "Cooking Onions", "details": "", "units": ["LB", "BG", "EA", "BX"] },
+          { "name": "Cipollini Onions", "details": "", "units": ["LB", "BG", "EA", "BX"] },
+          { "name": "Vidalia Onions", "details": "", "units": ["LB", "BG", "EA", "BX"] },
+          { "name": "White Onions", "details": "", "units": ["LB", "BG", "EA", "BX"] },
+          { "name": "Green Onions", "details": "", "units": ["LB", "BG", "EA", "BX"] },
+          { "name": "Pearl Onions", "details": "", "units": ["LB", "BG", "EA", "BX"] },
+          { "name": "Red Onions", "details": "", "units": ["LB", "BG", "EA", "BX"] },
+          { "name": "Shallots", "details": "", "units": ["LB", "BG", "EA", "BX"] }
+        ]
+      },
+      {
+        "name": "Peppers",
+        "children": [
+          { "name": "Green Peppers", "details": "", "units": ["EA", "LB", "CS"] },
+          { "name": "Poblano Peppers", "details": "", "units": ["EA", "LB", "CS"] },
+          { "name": "Red Peppers", "details": "11 lb bus", "units": ["EA", "LB", "CS", "BUS"] },
+          { "name": "Yellow Peppers", "details": "", "units": ["EA", "LB", "CS"] },
+          { "name": "Orange Peppers", "details": "", "units": ["EA", "LB", "CS"] },
+          { "name": "Red Chili Peppers", "details": "", "units": ["EA", "LB", "CS"] },
+          { "name": "Jalapeno Peppers", "details": "", "units": ["EA", "LB", "CS"] },
+          { "name": "Banana Peppers", "details": "", "units": ["EA", "LB", "CS"] },
+          { "name": "Tomatillo", "details": "", "units": ["LB", "CS"] },
+          { "name": "Habanero Peppers", "details": "", "units": ["LB", "CS"] },
+          { "name": "Green Chili Peppers", "details": "", "units": ["LB", "CS"] }
+        ]
+      },
+      {
+        "name": "Potatoes",
+        "children": [
+          { "name": "Jumbo Potatoes", "details": "", "units": ["LB", "BG"] },
+          { "name": "Baker Potatoes", "details": "70 / 80 / 90 / 100", "units": ["EA", "CS"] },
+          { "name": "Mini Red Potatoes", "details": "", "units": ["LB", "CS"] },
+          { "name": "White Potatoes", "details": "", "units": ["LB", "CS"] },
+          { "name": "Yukon Potatoes", "details": "", "units": ["LB", "CS"] },
+          { "name": "Fingerling Potatoes", "details": "", "units": ["LB", "BG"] },
+          { "name": "Large Red Potatoes", "details": "", "units": ["LB", "BG"] },
+          { "name": "Yukon Gold Potatoes", "details": "", "units": ["LB", "BG"] },
+          { "name": "Peeled Potatoes", "details": "", "units": ["LB", "BG"] },
+          { "name": "Parisienne Potatoes", "details": "", "units": ["LB", "BG"] }
+        ]
+      },
+      {
+        "name": "Root Vegetables",
+        "children": [
+          { "name": "Yam", "details": "", "units": ["EA", "LB", "CS"] },
+          { "name": "Kohlrabi", "details": "", "units": ["EA", "LB", "CS"] },
+          { "name": "Daikon", "details": "", "units": ["EA", "LB", "CS"] },
+          { "name": "Radish", "details": "", "units": ["EA", "LB", "CS"] },
+          { "name": "Watermelon Radish", "details": "", "units": ["EA", "LB", "CS"] },
+          { "name": "Horseradish", "details": "", "units": ["EA", "LB", "CS"] },
+          { "name": "Parsnip", "details": "", "units": ["EA", "LB", "CS"] },
+          { "name": "Sunchoke", "details": "", "units": ["EA", "LB", "CS"] },
+          { "name": "Rapini", "details": "", "units": ["EA", "LB", "CS"] },
+          { "name": "Turnip", "details": "White", "units": ["EA", "LB", "CS"] }
+        ]
+      },
+      {
+        "name": "Peas",
+        "children": [
+          { "name": "Snow Peas", "details": "", "units": ["LB", "CS"] },
+          { "name": "Sugar Snaps", "details": "", "units": ["LB", "CS"] }
+        ]
+      },
+      {
+        "name": "Squash",
+        "children": [
+          { "name": "Butternut Squash", "details": "", "units": ["EA", "LB", "CS"] },
+          { "name": "Kabocha Squash", "details": "", "units": ["EA", "LB", "CS"] },
+          { "name": "Pepper Squash", "details": "", "units": ["EA", "LB", "CS"] },
+          { "name": "Spaghetti Squash", "details": "", "units": ["EA", "LB", "CS"] }
+        ]
+      },
+      {
+        "name": "Tomatoes",
+        "children": [
+          { "name": "6x7 Tomatoes", "details": "", "units": ["EA", "LB", "CS"] },
+          { "name": "6x6 Tomatoes", "details": "", "units": ["EA", "LB", "CS"] },
+          { "name": "5x6 Tomatoes", "details": "", "units": ["EA", "LB", "CS"] },
+          { "name": "Field Tomatoes", "details": "", "units": ["EA", "LB", "CS"] },
+          { "name": "Hot House Tomatoes", "details": "", "units": ["EA", "LB", "FL"] },
+          { "name": "Cluster Tomatoes", "details": "", "units": ["EA", "LB", "FL"] },
+          { "name": "Roma Tomatoes", "details": "", "units": ["EA", "LB", "CS"] },
+          { "name": "Heirloom Tomatoes", "details": "", "units": ["EA", "LB", "CS"] },
+          { "name": "Grape Tomatoes", "details": "", "units": ["CL", "FL"] },
+          { "name": "Medley Tomatoes", "details": "", "units": ["CL", "FL"] }
+        ]
+      },
+      {
+        "name": "Zucchini",
+        "children": [
+          { "name": "Green Zucchini", "details": "", "units": ["EA", "LB", "CS"] },
+          { "name": "Yellow Zucchini", "details": "", "units": ["EA", "LB", "CS"] }
+        ]
+      }
+    ]
+  },
+  {
+    "category": "Herbs",
+    "items": [
+      { "name": "Basil", "details": "", "units": ["EA", "BG", "CS"] },
+      { "name": "Thai Basil", "details": "", "units": ["EA", "BG", "CS"] },
+      { "name": "Cilantro", "details": "", "units": ["EA", "CS"] },
+      { "name": "Lemongrass", "details": "", "units": ["EA", "CS"] },
+      { "name": "Chives", "details": "", "units": ["EA", "BG"] },
+      { "name": "Tarragon", "details": "", "units": ["EA", "BG"] },
+      { "name": "Rosemary", "details": "", "units": ["EA", "BG"] },
+      { "name": "Thyme", "details": "", "units": ["EA", "BG"] },
+      { "name": "Mint", "details": "", "units": ["EA", "BG", "CS"] },
+      { "name": "Dill", "details": "", "units": ["EA", "BG", "CS"] },
+      { "name": "Sage", "details": "", "units": ["EA", "BG"] },
+      { "name": "Oregano", "details": "", "units": ["EA", "BG"] },
+      { "name": "Curly Parsley", "details": "", "units": ["EA", "CS"] },
+      { "name": "Italian Parsley", "details": "", "units": ["EA", "CS"] }
+    ]
+  },
+  {
+    "category": "Misc",
+    "items": [
+      {
+        "name": "Eggs / Tofu",
+        "children": [
+          { "name": "Large Eggs", "details": "", "units": ["FL", "CS"] },
+          { "name": "Medium Eggs", "details": "", "units": ["FL", "CS"] },
+          { "name": "Tofu", "details": "", "units": ["FL", "CS"] }
+        ]
+      },
+      {
+        "name": "Garlic",
+        "children": [
+          { "name": "Garlic", "details": "", "units": ["LB", "BG", "CS"] },
+          { "name": "Peeled Garlic", "details": "", "units": ["LB", "BG", "CS"] }
+        ]
+      },
+      {
+        "name": "Ginger / Edible Flowers",
+        "children": [
+          { "name": "Ginger", "details": "", "units": ["LB", "CS", "FL"] },
+          { "name": "Edible Flowers", "details": "", "units": ["LB", "CS", "FL"] }
+        ]
+      },
+      {
+        "name": "Micro Greens",
+        "children": [
+          { "name": "Micro Mix", "details": "", "units": ["CL", "FL"] },
+          { "name": "Pea Tender", "details": "", "units": ["CL", "FL"] }
+        ]
+      },
+      {
+        "name": "Water Greens",
+        "children": [
+          { "name": "Watercress", "details": "", "units": ["CL", "FL"] },
+          { "name": "Sorrel", "details": "", "units": ["CL", "FL"] }
+        ]
+      },
+      {
+        "name": "Chervil / Crimson",
+        "children": [
+          { "name": "Chervil", "details": "", "units": ["CL", "FL"] },
+          { "name": "Crimson", "details": "", "units": ["CL", "FL"] }
+        ]
+      }
+    ]
+  },
+  {
+    "category": "Processed",
+    "items": [
+      { "name": "Mushroom Sliced", "details": "", "units": ["LB", "CS"] },
+      { "name": "Lettuce Shredded", "details": "", "units": ["LB", "CS"] },
+      { "name": "Lettuce Chopped", "details": "", "units": ["LB", "CS"] },
+      { "name": "Romaine Chopped", "details": "", "units": ["LB", "CS"] },
+      { "name": "Coleslaw", "details": "", "units": ["LB", "BG", "CS"] },
+      {
+        "name": "Leaf Mixes",
+        "children": [
+          { "name": "Leaf Fillet", "details": "", "units": ["LB", "CS"] },
+          { "name": "Ivey Mix", "details": "", "units": ["LB", "CS"] }
+        ]
+      },
+      {
+        "name": "Peeled Onions",
+        "children": [
+          { "name": "Onion Peeled", "details": "", "units": ["LB", "BG"] },
+          { "name": "Red Peeled Onion", "details": "", "units": ["LB", "BG"] }
+        ]
+      },
+      { "name": "Carrot Peeled", "details": "", "units": ["LB", "BG"] },
+      {
+        "name": "Florets",
+        "children": [
+          { "name": "Large Broccoli Florets", "details": "", "units": ["LB"] },
+          { "name": "Small Broccoli Florets", "details": "", "units": ["LB"] },
+          { "name": "Large Cauliflower Florets", "details": "", "units": ["LB"] },
+          { "name": "Small Cauliflower Florets", "details": "", "units": ["LB"] }
+        ]
+      },
+      {
+        "name": "Carrot / Celery Cuts",
+        "children": [
+          { "name": "Carrot Sticks", "details": "", "units": ["LB", "SH", "STX", "DIC", "JUL", "SL"] },
+          { "name": "Carrot Diced", "details": "", "units": ["LB", "SH", "STX", "DIC", "JUL", "SL"] },
+          { "name": "Carrot Julienned", "details": "", "units": ["LB", "SH", "STX", "DIC", "JUL", "SL"] },
+          { "name": "Carrot Sliced", "details": "", "units": ["LB", "SH", "STX", "DIC", "JUL", "SL"] },
+          { "name": "Celery Sticks", "details": "", "units": ["LB", "SH", "STX", "DIC", "JUL", "SL"] },
+          { "name": "Celery Diced", "details": "", "units": ["LB", "SH", "STX", "DIC", "JUL", "SL"] },
+          { "name": "Celery Julienned", "details": "", "units": ["LB", "SH", "STX", "DIC", "JUL", "SL"] },
+          { "name": "Celery Sliced", "details": "", "units": ["LB", "SH", "STX", "DIC", "JUL", "SL"] }
+        ]
+      },
+      {
+        "name": "Shredded Cabbage",
+        "children": [
+          { "name": "Green Shredded Cabbage", "details": "", "units": ["SH", "LB"] },
+          { "name": "Red Shredded Cabbage", "details": "", "units": ["SH", "LB"] }
+        ]
+      },
+      {
+        "name": "Processed Peppers",
+        "children": [
+          { "name": "Green Cubed Peppers", "details": "", "units": ["SL", "LB"] },
+          { "name": "Green Julienned Peppers", "details": "", "units": ["SL", "LB"] },
+          { "name": "Green Diced Peppers", "details": "", "units": ["SL", "LB"] },
+          { "name": "Red Cubed Peppers", "details": "", "units": ["SL", "LB"] },
+          { "name": "Red Julienned Peppers", "details": "", "units": ["SL", "LB"] },
+          { "name": "Red Diced Peppers", "details": "", "units": ["SL", "LB"] },
+          { "name": "Yellow Cubed Peppers", "details": "", "units": ["SL", "LB"] },
+          { "name": "Yellow Julienned Peppers", "details": "", "units": ["SL", "LB"] },
+          { "name": "Yellow Diced Peppers", "details": "", "units": ["SL", "LB"] }
+        ]
+      },
+      {
+        "name": "Processed Potatoes",
+        "children": [
+          { "name": "Mini Red Half-Cut Potatoes", "details": "", "units": ["DC", "LB"] },
+          { "name": "White Half-Cut Potatoes", "details": "", "units": ["DC", "LB"] }
+        ]
+      },
+      {
+        "name": "Cut Fruit",
+        "children": [
+          { "name": "Cut Cantaloupe", "details": "", "units": ["PP", "CB", "CS", "LG", "SM"] },
+          { "name": "Cut Honeydew", "details": "", "units": ["PP", "CB", "CS", "LG", "SM"] },
+          { "name": "Cut Pineapple", "details": "", "units": ["PP", "CB", "CS", "LG", "SM"] },
+          { "name": "Fruit Salad Pail", "details": "", "units": ["PP", "CB", "CS", "LG", "SM"] }
+        ]
+      },
+      {
+        "name": "Veg Mix",
+        "children": [
+          { "name": "Stir Fry Veg Mix", "details": "", "units": ["LB", "BG"] },
+          { "name": "Fajita Veg Mix", "details": "", "units": ["LB", "BG"] }
+        ]
+      }
+    ]
+  }
+]
